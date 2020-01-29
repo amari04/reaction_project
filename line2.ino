@@ -61,7 +61,7 @@ for (x = 30; x<43; x++){
  }
    y = 15;
    x = 30;
-  while ((x<43) and (y>5)) {
+  while ((x < 43) and (y > 5)) {
     matrix.drawPixel(x, y, matrix.Color333(r, g, b));
     delay(30);
    x++;
