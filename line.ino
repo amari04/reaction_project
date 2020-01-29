@@ -10,7 +10,7 @@
 #define C   A2                                                          // Вывод Arduino, к которому подключён вывод C матрицы
 #define D   A3                                                          // Вывод Arduino, к которому подключён вывод D матрицы
 
-RGBmatrixPanel matrix(A, B, C, D, CLK, LAT, OE, true, 64);              // Объявляем объект matrix для работы с матрицей 64х32, включаем двойную буферизацию
+RGBmatrixPanel matrix(A, B, C, D, CLK, LAT, OE, true, 64);              // Объявляем объект matrix для работы с матрицей 64х32,включаем двойную буферизацию
 int8_t ball[3][2] = {{ 13, 15 },{ 30, 15 },{ 48, 15}};
 static const uint16_t color[3] = {matrix.Color333(0, 0, 3),matrix.Color333(0, 3, 0), matrix.Color333(3, 0, 0)};
 void setup() {
